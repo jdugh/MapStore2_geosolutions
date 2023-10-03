@@ -23,7 +23,7 @@ import { testEpic } from './epicTestUtils';
 
 describe('Test the print epics', () => {
 
-    it('Epics Add transformer', function (done) {
+    it('Epics Add transformer', function(done) {
         const chainLengthBeforeTest = getSpecTransformerChain().length;
         testEpic(
             addPrintTransformerEpic,
@@ -45,7 +45,7 @@ describe('Test the print epics', () => {
         );
     });
 
-    it('Epics Add transformer with position', function (done) {
+    it('Epics Add transformer with position', function(done) {
         const chainLengthBeforeTest = getSpecTransformerChain().length;
         testEpic(
             addPrintTransformerEpic,

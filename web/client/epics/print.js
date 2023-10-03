@@ -9,7 +9,7 @@
 
 import Rx from 'rxjs';
 import { ADD_PRINT_TRANSFORMER, printTransformerAdded } from '../actions/print';
-import { addTransformer, getSpecTransformerChain } from '../utils/PrintUtils';
+import { addTransformer } from '../utils/PrintUtils';
 
 
 export const addPrintTransformerEpic = (action$) =>
